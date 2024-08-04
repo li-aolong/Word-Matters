@@ -5,6 +5,7 @@ You can measure your own dataset using the python files we provide.
 To finetune or evaluate LLMs we use LLama-factory. We also provide the code in this repository. You can follow the instructions of the origin repository. (https://github.com/hiyouga/LLaMA-Factory)
 
 Here is our configration. You can follow it or design your own one.
+
 USE_MODELSCOPE_HUB=1 accelerate launch src/train_bash.py \
     --stage sft \
     --do_train True \
